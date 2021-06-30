@@ -1,0 +1,28 @@
+html{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    display: inline-block;
+    width: 30%;
+    margin:calc(10%/6) ;
+    box-shadow: 5px 5px 20px 7px blue;
+    transition: transform 0.8s, box-shadow 0.7s;
+}
+img:hover{
+    transform: scale(130%);
+    box-shadow: 5px 5px 15px 6px yellowgreen;
+}
+
+nav{
+    font-size: 200%;
+    font-family: monospace;
+    border-bottom: 2px 
+    solid #580707;
+    letter-spacing: 6px;
+    width: 30%;
+    margin-left: calc(10%/6);
+    margin-bottom: 6px;
+    padding: 1.2em 0;
+}
